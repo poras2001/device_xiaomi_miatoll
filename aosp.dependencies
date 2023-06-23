@@ -1,31 +1,22 @@
 [
   {
-    "repository": "hardware_xiaomi",
-    "target_path": "hardware/xiaomi",
-    "branch": "thirteen",
-    "remote": "pixel"
+    "remote":      "Xtended-Devices",
+    "repository":  "device_xiaomi_sm6250-common",
+    "target_path": "device/xiaomi/sm6250-common"
   },
   {
-    "repository": "kernel_xiaomi_sm6250",
-    "target_path": "kernel/xiaomi/sm6250",
-    "branch": "thirteen"
+    "remote":      "Xtended-Devices",
+    "repository":  "vendor_xiaomi_miatoll",
+    "target_path": "vendor/xiaomi/miatoll"
   },
   {
-    "repository": "vendor_xiaomi_miatoll",
-    "target_path": "vendor/xiaomi/miatoll",
-    "branch": "thirteen",
-    "remote": "pixel-devices-blobs"
+    "remote":      "Xtended-Devices",
+    "repository":  "vendor_xiaomi_sm6250-common",
+    "target_path": "vendor/xiaomi/sm6250-common"
   },
   {
-    "repository": "vendor_xiaomi_miatoll-fw",
-    "target_path": "vendor/xiaomi/miatoll-fw",
-    "branch": "thirteen",
-    "remote": "pixel-devices-blobs"
-  },
-  {
-    "repository": "vendor_xiaomi_miatoll-gcam",
-    "target_path": "vendor/xiaomi/miatoll-gcam",
-    "branch": "thirteen",
-    "remote": "pixel-devices-blobs"
+    "remote":      "Xtended-Devices",
+    "repository":  "kernel_xiaomi_sm6250",
+    "target_path": "kernel/xiaomi/sm6250"
   }
 ]
