@@ -14,14 +14,10 @@ $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 # Inherit from miatoll device
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
 
-# MiuiCamera
-$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
-TARGET_SHIPS_GALLERY := true
 
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_USES_MINI_GAPPS := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_CALL_RECORDING := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
@@ -40,4 +36,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="miatoll_global-user 13 TQ3A.230605.010 V13.0.2.0.SJWMIXM release-keys"
 
-BUILD_FINGERPRINT := Redmi/miatoll_global/miatoll:12/RKQ1.211019.001/V13.0.2.0.SJWMIXM:user/release-keys
+BUILD_FINGERPRINT := Redmi/miatoll_global/miatoll:13/TQ3A.230605.010/V13.0.2.0.SJWMIXM:user/release-keys
